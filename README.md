@@ -46,8 +46,6 @@ API testing for Swagger Petstore, covering both positive and negative scenarios.
 newman run dimas-sulaksono.postman_collection.json \  
 -e dimas-sulaksono.postman_environment.json \  
 -r htmlextra --reporter-htmlextra-export report.html
--e dimas-sulaksono.postman_environment.json \
--r htmlextra --reporter-htmlextra-export report.html
 ```
 
 ## Part 2: UI Automation – Katalon Studio
